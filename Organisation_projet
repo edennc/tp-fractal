@@ -1,4 +1,5 @@
 ATOMES
+.a-image
 .a-title
     .a-title--h1
     .a--title--h2
@@ -7,20 +8,22 @@ ATOMES
     .a-input--icon
 .a-button
     .a-button--themes
-    .a-button--seelAll
-.a-buttonHome
-    .a-button--disabled
-    .a-button--primary
+    .a-button--seeAll
+.a-iconMenu
+    .a-iconMenu--disabled
+    .a-iconMenu--primary
+    .a-iconMenu--description
 .a-article
     .a-article--pictures
     .a-article--videos
 .a-recording
-.a-menu
-    .a-menu--icons
+    .a-recording--on
+    .a-recording-off
 
 
 MOLÉCULES
 .m-profil
+    .a-image
 .m-info
     .a-title--h1
     .a-text
@@ -34,8 +37,7 @@ MOLÉCULES
     .a-article
     .a-recording
 .m-menu
-    .a-menu
-    .a-buttonHome
+    .a-iconMenu
 
 
 ORGANISME
@@ -53,4 +55,8 @@ ORGANISME
 
 LAYOUT
 .l-home
+    .o-header
+    .o-body
+    .o-footer
+
 
