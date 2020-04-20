@@ -1,28 +1,27 @@
 @mixin font($font-family, $file-path, $font-weight, $font-style) {
   @font-face {
     font-family: $font-family;
-    src: url('#{$file-path}.woff2') format('woff2'),
-      url('#{$file-path}.woff') format('woff');
+    src: url('#{$file-path}.ttf') format('ttf'),
+      url('#{$file-path}.ttf') format('ttf');
     font-weight: $font-weight;
     font-style: $font-style;
   }
 }
 
-@include font('Oswald', '../assets/fonts/Oswald/Oswald-Regular', 400, normal);
-@include font('Oswald', '../assets/fonts/Oswald/Oswald-Light', 300, normal);
-@include font('Roboto', '../assets/fonts/Roboto/Roboto-Regular', 400, normal);
-@include font('Roboto', '../assets/fonts/Roboto/Roboto-Bold', 900, normal);
-@include font('Roboto', '../assets/fonts/Roboto/Roboto-Italic', 400, italic);
+@include font('Permanent Maker', '../assets/fonts/PermanentMaker/PermanentMarker-Regular', 400, normal);
+@include font('Permanent Maker', '../assets/fonts/PermanentMaker/PermanentMarker-Regular', 300, normal);
+@include font('Merriweather', '../assets/fonts/Merriweather/Merriweather-Regular', 200, normal);
+@include font('Merriweather', '../assets/fonts/Merriweather/Merriweather-Regular', 100, normal);
 
 :root {
-  --fontFamilyTitle: Oswald, sans-serif;
-  --fontFamilyMain: Roboto, sans-serif;
+  --fontFamilyTitle: PermanentMarker, serif;
+  --fontFamilyMain: Merriweather, serif;
   --fontFamilyCode: monospace;
 
-  --fontSizeXXL: 80px;
-  --fontSizeXL: 32px;
-  --fontSizeL: 24px;
-  --fontSizeM: 18px;
+  //--fontSizeXXL: 24px;
+  --fontSizeXL: 24px;
+  --fontSizeL: 18px;
+  --fontSizeM: 16px;
   --fontSizeS: 14px;
 
   --fontWeightBold: 900;
