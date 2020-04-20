@@ -8,8 +8,8 @@
   }
 }
 
-@include font('Permanent Maker', '../assets/fonts/PermanentMaker/PermanentMarker-Regular', 400, normal);
-@include font('Permanent Maker', '../assets/fonts/PermanentMaker/PermanentMarker-Regular', 300, normal);
+@include font('PermanentMarker', '../assets/fonts/PermanentMarker/PermanentMarker-Regular', 400, normal);
+@include font('PermanentMarker', '../assets/fonts/PermanentMarker/PermanentMarker-Regular', 300, normal);
 @include font('Merriweather', '../assets/fonts/Merriweather/Merriweather-Regular', 200, normal);
 @include font('Merriweather', '../assets/fonts/Merriweather/Merriweather-Regular', 100, normal);
 

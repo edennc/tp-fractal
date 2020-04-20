@@ -2,7 +2,7 @@
     border-radius: 5px;
     height: 35px;
     width: 300px;
-    color: #B2BEC3;
+    color: #757575;
     font-family: var(--fontFamilyMain);
     font-size: var(--fontSizeS);
     border: 0 none;
@@ -11,9 +11,11 @@
 
 .a-input--search {
     background-color:#ECEEEF;
-    padding: 5px 40px;
+    padding: 5px 42px;
 }
 
 .a-input--img {
-    
+    position: relative;
+    top: 36px;
+    left: 10px;
 }
