@@ -6,6 +6,7 @@ ATOMES
 .a-text
 .a-input
     .a-input--icon
+    .a-input--bar
 .a-button
     .a-button--themes
     .a-button--seeAll
