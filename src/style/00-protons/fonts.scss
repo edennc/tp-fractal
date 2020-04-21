@@ -1,17 +1,15 @@
 @mixin font($font-family, $file-path, $font-weight, $font-style) {
   @font-face {
     font-family: $font-family;
-    src: url('#{$file-path}.ttf') format('ttf'),
-      url('#{$file-path}.ttf') format('ttf');
+    src: url('#{$file-path}.ttf') format('truetype');
     font-weight: $font-weight;
     font-style: $font-style;
   }
 }
 
 @include font('PermanentMarker', '../assets/fonts/PermanentMarker/PermanentMarker-Regular', 400, normal);
-@include font('PermanentMarker', '../assets/fonts/PermanentMarker/PermanentMarker-Regular', 300, normal);
-@include font('Merriweather', '../assets/fonts/Merriweather/Merriweather-Regular', 200, normal);
-@include font('Merriweather', '../assets/fonts/Merriweather/Merriweather-Regular', 100, normal);
+@include font('Merriweather', '../assets/fonts/Merriweather/Merriweather-Regular', 400, normal);
+@include font('Merriweather', '../assets/fonts/Merriweather/Merriweather-Light', 300, normal);
 
 :root {
   --fontFamilyTitle: PermanentMarker, serif;
