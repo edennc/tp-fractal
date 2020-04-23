@@ -1,3 +1,7 @@
+.a-title {
+    width: 375px;
+}
+
 .a-title--h1 {
     font-size: var(--fontSizeXL);
     font-family: var(--fontFamilyTitle);
@@ -10,6 +14,6 @@
     font-family: var(--fontFamilyTitle);
     color: var(--colorTextMain);
     margin-left: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
