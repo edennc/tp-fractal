@@ -1,6 +1,10 @@
 <header class="o-header">
   {{> @profil }}
-  {{> @info }}
-  {{> @search }}
-  {{> @theme }}
+  <div class="o-header o-header--info">
+    {{> @info }}
+  </div>
+  <div class="o-header o-header--button">
+    {{> @search }}
+    {{> @theme }}
+  </div>
 </header>
