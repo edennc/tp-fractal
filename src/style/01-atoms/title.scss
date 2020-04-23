@@ -1,19 +1,47 @@
 .a-title {
     width: 375px;
+    margin-left: 10px;
+    position: absolute;
 }
 
 .a-title--h1 {
     font-size: var(--fontSizeXL);
     font-family: var(--fontFamilyTitle);
     color: var(--colorTextMain);
-    margin: 10px;
-    }
+    margin-top: 10px;
+}
 
 .a-title--h2 {
+    // height: 500px;
     font-size: var(--fontSizeL);
     font-family: var(--fontFamilyTitle);
     color: var(--colorTextMain);
-    margin-left: 10px;
-    justify-content: space-evenly;
+}
 
+.a-title--h2-Themes{
+    margin-top: -72px;
+    font-size: var(--fontSizeL);
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorTextMain);
+}
+
+.a-title--h2-Conseil{
+    margin-top: 2px;
+    font-size: var(--fontSizeL);
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorTextMain);
+}
+
+.a-title--h2-Sujets{
+    margin-top: 190px;
+    font-size: var(--fontSizeL);
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorTextMain);
+}
+
+.a-title--h2-Lecture{
+    margin-top: 680px;
+    font-size: var(--fontSizeL);
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorTextMain);
 }
