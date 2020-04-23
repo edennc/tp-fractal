@@ -1,7 +1,11 @@
 .a-iconMenu {
   width: 375px;
-  color: var(--colorTextSecondary);
-  margin: 10px;
+  height: 70px;
+  background-color: var(--colorWhite);
+  box-shadow: var(--colorTextSecondary);
+  margin-top: 10px;
+  padding: 3px;
+  box-shadow: 3px 3px 3px 3px rgba(234, 234, 234, .2);
   }
   
   .a-iconMenu--disabled {
@@ -9,6 +13,7 @@
   width: 30px;
   height: 30px;
   margin-left: 30px;
+  justify-content: space-evenly;
   }
 
   
@@ -20,6 +25,7 @@
   }
 
   .a-iconMenu__Two {
+    width: 360px;
     color: var(--colorTextSecondary);
     display: flex;
     justify-content: space-evenly;

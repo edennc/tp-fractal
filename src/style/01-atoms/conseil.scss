@@ -1,0 +1,31 @@
+.a-conseil {
+    font-size: var(--fontSizeS);
+    font-family: var(--fontFamilyMain);
+    
+}
+
+.a-conseil--text{
+    font-size: var(--fontSizeS);
+    font-family: var(--fontFamilyMain);
+    color: var(--colorTextMain);
+    width: 375px;
+    margin-left: 20px;
+    line-height: 17px;
+}
+
+.a-conseil--block {
+    width: 335px;
+    height: 60px;
+    background: #EBF0F7;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.a-conseil--blockText {
+    font-size: var(--fontSizeS);
+    font-family: var(--fontFamilyMain);
+    color: var(--colorTextMain);
+    text-align: center;
+    line-height: 17px;  
+    padding: 11px;
+}

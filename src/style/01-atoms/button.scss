@@ -9,7 +9,8 @@
   font-size: var(--fontSizeS);
   color: var(--colorTextSecondary);
   padding-left: 288px;
-  padding-top: 60px;
+  padding-top: 40px;
+  text-shadow: 0.1em 0.1em 0.05em rgba(234, 234, 234, .8);
 }
 
 .a-button--themes {
@@ -23,7 +24,7 @@
   justify-content: center;
   color: var(--colorSecondaryYellow);
   box-shadow: 3px 3px 3px 3px rgba(234, 234, 234, .2);
-  margin: 10px;;
+  margin: 10px;
 }
 
 

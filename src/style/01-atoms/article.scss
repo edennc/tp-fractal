@@ -2,20 +2,22 @@
     width: 375px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 .a-article--pictures {
-    width: 150px;
-    height: 160px;
+    width: 170px;
+    height: 160px; 
 }
 
 .a-article--videos {
-    width: 150px;
-    height: 160px;
+    width: 170px;
+    height: 160px; 
 }
 
 .a-article--videosOne {
-    width: 305px;
-    height: 160px;
+    width: 335px;
+    height: 160px; 
 }
 

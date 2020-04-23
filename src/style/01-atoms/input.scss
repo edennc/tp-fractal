@@ -1,23 +1,24 @@
 .a-input {
-    height: 35px;
-    width: 255px;
+    height: 40px;
+    width: 303px;
     color: #757575;
     font-family: var(--fontFamilyMain);
     font-size: var(--fontSizeS);
     border: 0 none;
-    margin: 10px 0 0 5px;
+    margin: 20px 0 0 5px;
 }
 
 .a-input--search {
     background-color:#ECEEEF;
-    padding: 5px 42px;
+    padding: 0 0 0 42px;
     border-radius: 5px;
+    position: absolute;
 }
 
 .a-input--img {
+    margin-left: 15px;
+    margin-top: 28px;
     position: relative;
-    top: 45px;
-    left: 16px;
     height: 22px;
     width: 25px;
 }
